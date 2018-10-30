@@ -2,3 +2,41 @@ body {
 	padding-top: 0px; 
 }
 
+.rekom-text-left {
+	color: red;
+	font-family: Tahoma, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	text-shadow: black 1px 0px 1px;
+}
+
+.rekom-text-right {
+	color: red;
+	font-family: Tahoma, sans-serif;
+	text-align: right;
+	font-size: 20px;
+	text-shadow: black 0px 1px 1px;
+}
+
+.round-img {
+    border-radius: 50%; /* Радиус скругления */
+    border: 2px solid black; /* Параметры рамки */
+    box-shadow: 0 0 7px black; /* Параметры тени */
+}
+
+.rekom-text-footer {
+	color: red;
+	font-family: Tahoma, sans-serif;
+	font-size: 15px;
+	text-shadow: black 0px 1px 1px;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+
+  
