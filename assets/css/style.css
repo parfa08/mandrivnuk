@@ -1,8 +1,8 @@
-body {
-	padding-top: 0px; 
-}
+ body {
+    background-image: url(img/bg.jpg); /* Путь к фоновому изображению */
+   }
 
-.rekom-text-left {
+ .rekom-text-left {
 	color: red;
 	font-family: Tahoma, sans-serif;
 	text-align: left;
@@ -37,6 +37,7 @@ hr {
     color: red; /* Цвет линии для IE6-7 */
     height: 2px; /* Толщина линии */
    }
+
 
 
   

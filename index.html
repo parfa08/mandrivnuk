@@ -17,6 +17,20 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  <style>
+  	.img {
+  background: url(img/img1.jpg) no-repeat; /* изображение по умолчанию */
+  height: 333px; /* высота изображения */
+  width: 500px; /* ширина изображения */
+}
+.img:hover {
+  background: url(img/img1-0.jpg) no-repeat; /* новое изображение */
+  height: 333px; /* высота изображения */
+  width: 500px; /* ширина изображения */
+}
+  </style>
+
+
   </head>
   <body>		
 
@@ -134,7 +148,7 @@
 				<div class="row">
 				  <div class="col-lg-12">
 				    <div class="thumbnail" style="border: hidden">
-				      <img src="img/img1.jpg" alt="...">
+				      <div class="img"></div>
 				      
 				    </div>
 				  </div>
